@@ -4,6 +4,7 @@ import Button from './components/button'
 import Warning from './templates/warning.html'
 import "./styles/warning.css"
 import fraseTxt from './files/frase.txt'
+import descricao from './files/descricao.json'
 
 const title = new Title();
 
@@ -37,3 +38,9 @@ const frase = fraseTxt;
 
 console.log(frase)
 console.log(frase.toUpperCase())
+
+//import aqruvo json 
+
+const pessoa = descricao
+
+console.log(pessoa)
